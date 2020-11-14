@@ -1,0 +1,35 @@
+
+<html>
+<title> Welcome to Database </title>
+<head>
+	<script type="text/javascript">
+	function check(user, pass){
+	if(user=="sojib" && pass=="sojib") alert("Right");
+	else alert("wrong");
+	
+	}
+	</script>
+</head>
+
+<body>
+
+
+	<form name="frm">
+	<fieldset>
+	<legend>Log In</legend>
+	<center>
+	User Name:
+	<input type="text" size="30" name="userName" /><br>
+	Password:
+	<input type="password" size="30" name="userPassword" /> <br>
+	<input type="button" id="submitBtn" value="Submit" onclick="check(frm.userName.value, frm.userPassword.value)"/>
+	</center>
+	</fieldset>
+	
+	</form>
+
+
+
+</body>
+
+</html>

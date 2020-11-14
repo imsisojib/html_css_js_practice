@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    border: solid red 2px;
+}
+
+.image-container{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: solid green 2px;
+}
+
+.image-normal{
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: solid chocolate 2px;
+}
+
+.image-cover{
+    width: 300px;
+    height: 150px;
+    background-image: url("Capture.jpg");
+    background-size: cover;
+    
+}
+
+.image-cover:hover{
+    width: 400px;
+    height: 250px;
+    
+}
+
+
+

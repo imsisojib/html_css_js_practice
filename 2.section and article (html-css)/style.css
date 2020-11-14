@@ -1,0 +1,11 @@
+section {
+    padding: 20px;
+}
+article {
+    padding: 5px;
+    float: 10px;
+    margin: 10px;
+    background-color: #eeeeee;
+    color: #1e1e1e;
+    border-radius: 8px;
+}

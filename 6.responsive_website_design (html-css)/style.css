@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper-content{
+    padding: 10px 10px;
+    background-color: #fff;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color:  aliceblue;
+}
+
+.nav-ul{
+
+}
+
+.nav-li{
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.nav-li a{
+    padding: 0 20px;
+    display: block;
+    text-decoration: none;
+    color: #1e1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-li a:hover{
+    color: red;
+    
+}
+
+.content{
+    width: 50%;
+    float: right;
+}
+
+.profile-pic{
+    width: 50%;
+    float: left;
+
+}
+
+article h2{
+    line-height: 44px;
+    font-size: 40px;
+    padding: 30px 30px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article p{
+    line-height: 24px;
+    padding: 0px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media only screen and (min-width: 350px){
+    .wrapper{
+        width: 300px;
+    }
+    
+    .wrapper-content{
+        padding: 8px 8px;
+    }
+
+    .nav-li{
+        padding-left: 10px;
+    }
+
+    .nav-li a{
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .content{
+        width: 100%;
+    }
+    
+    .profile-pic{
+        width: 100%;
+        
+    
+    }
+    
+    article h2{
+        line-height: 24px;
+        font-size: 20px;
+        padding: 0px 8px 10px;
+    }
+    
+    article p{
+        padding: 0px 10px 10px;
+    }
+
+}
+
+@media only screen and (min-width: 750px){
+    .wrapper{
+        width: 600px;
+    }
+    
+    .wrapper-content{
+        padding: 8px 8px;
+    }
+
+    .nav-li{
+        padding-left: 10px;
+    }
+
+    .nav-li a{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .content{
+        width: 100%;
+    }
+    
+    .profile-pic{
+        width: 100% auto;
+    
+    }
+    
+    article h2{
+        line-height: 34px;
+        font-size: 30px;
+        padding: 0px 8px 10px;
+    }
+    
+    article p{
+        padding: 0px 10px 10px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px){
+    .wrapper{
+        width: 1000px;
+    }
+    
+    .wrapper-content{
+        padding: 8px 8px;
+    }
+
+    .nav-li{
+        padding-left: 10px;
+    }
+
+    .nav-li a{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .content{
+        width: 50%;
+        float: right;
+    }
+    
+    .profile-pic{
+        width: 50%;
+        float: left;
+    
+    }
+    
+    article h2{
+        line-height: 34px;
+        font-size: 30px;
+        padding: 0px 8px 10px;
+    }
+    
+    article p{
+        padding: 0px 10px 10px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}

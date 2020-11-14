@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script type="text/javascript">
+	function hide(){
+	var x = document.getElementById("dd");
+	x.style.display="none";
+	document.getElementById("hBtn").style.display="none";
+	document.getElementById("sBtn").style.display="block";
+	}
+	function show(){
+	document.getElementById("dd").style.display="block";
+	document.getElementById("hBtn").style.display="block";
+	document.getElementById("sBtn").style.display="none";
+	}
+	
+	</script>
+</head>
+
+<body>
+	<p> this is a div hide and show html </p>
+	
+	<div id="dd" >
+		<p> Hello Everyone </p>
+		<img src="G:\Web Developing\HTML Projects\Show and Hide\download.jpg"> 
+	</div>
+	<button id="hBtn" onclick="hide()">Hide </button>
+	<button id="sBtn" onclick="show()" style="display: none">Show </button>
+	
+</body>
+</html>

@@ -1,0 +1,373 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*End of CSS Preset Code*/
+
+
+
+
+
+
+
+
+
+/**My Code Starting*/
+
+*{
+    text-decoration: none;
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+
+header .header-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content; /*fit-content na korle center hobe na*/
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0px 16px;
+} 
+
+header nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+}
+
+header .header-cases{
+    display: none;
+}
+
+/*Banner Design*/
+
+@media only screen and (min-width: 1000px){
+    header .header-brand{
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px; /*height for border line.*/
+        padding: 0 20px 0 40px; /*(top right bottom left) no need of top and bottom padding so that Border Line will be problem*/
+        border-right: 3px solid #111;
+        float: left;
+        
+
+    }
+
+    header nav ul{
+        margin: 20px 0 0 20px; /*aligning content by margin*/
+        /* no need now width: fit-content; fit-content na korle center hobe na*/
+        float: left;
+    } 
+    
+    header nav ul li a{
+
+        line-height: 60px; /*for making the list item center*/
+    }
+
+    header .header-cases{
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #111;
+        text-transform: uppercase;
+        border: 1px solid #111;
+        float: right;
+        line-height: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+}
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px); /*nav'r height 100 px use korsi. So nav'r part bad diye view-height adjust korar jonno calc() use kora hoiche. like constraint layout in android*/
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table; /*Section tare ekta table hisebe dekhabe*/
+}
+
+.index-banner-text{
+    display: table-cell; /*banner text gulo k ekta table cell
+            hisebe dekhabe and vertical-align use kore center
+            kora hobe.*/
+    vertical-align: middle; 
+}
+
+.index-banner h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+    text-shadow: 2px 2px 8px #ff9;
+}
+
+.index-banner h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px #ff9;
+    line-height: 40px;
+}
+
+/*List Item*/
+
+.index-links{
+    /*padding bottom*/
+    overflow: hidden;
+}
+
+.index-links div{   /*mobile'r jonno sob div same thakbe tai parent class use kore div gulo style kora better*/
+    margin: 16px 16px 0;
+    width: calc(100% - 32px); /*excluding 16px margin from both side*/
+    height: 100px;
+
+    background-color: #f2f2f2;
+    
+
+}
+
+.index-links div h3{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    color: #111;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 100px;  /*box height and line-height same for aligning center.*/
+
+}
+
+@media only screen and (min-width: 1000px){
+   
+   .wrapper{
+       width: 1000px;
+       margin: 0 auto;
+
+   }
+    .index-banner {
+        height: 500px;
+        display: table; 
+    }
+    
+    .index-banner h2{
+        text-align: left;
+        margin-left: 100px;
+       
+        
+    }
+
+    .index-boxlink-square{
+        width: calc(25% - 20px) !important;
+        /*!important ignore previous code*/
+    }
+
+    .index-boxlink-rectangle{
+        width: calc(50% - 20px) !important;
+    }
+
+    
+    .index-links div{ 
+        margin: 20px 10px 0;
+        height: 200px;
+        float: left;
+    
+    }
+
+    .index-links div h3{
+        
+        line-height: 200px;
+    
+    }
+}
+
+/*Footer Design*/
+
+footer{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #111;
+    margin-top: 20px;
+    overflow: hidden; /*footer a div and ul use korsi. div'r default box show kore fole align hoy na..tai overflow hidden kora hoy jate align hoy.*/
+
+}
+
+.footer-links-cases{
+    display: none;
+}
+
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+}
+
+footer ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.footer-sm{
+    width: 40px;
+    float: right;
+}
+
+.footer-sm img{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px){
+    .footer-links-cases{
+        display: block;
+    }
+
+
+    .footer-links-cases li p{
+        font-size: 22px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #fff;
+        font-weight: 800;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+
+    footer ul{
+        padding-left: 30px;
+    
+    }
+
+ }
+ 
