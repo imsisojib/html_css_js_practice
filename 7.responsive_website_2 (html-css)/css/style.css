@@ -116,7 +116,18 @@ input, select {
     text-decoration: none;
 }
 
+main{
+    padding-top: 100px; /*For Fixed header. Padding top size of header height*/
+}
+
 header{
+    /*For fixing header: start*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /*For Fixing Header: end...when srcoll down header won't disapper.*/
+
     background-color: #fff;
     width: 100%;
     height: 100px;
