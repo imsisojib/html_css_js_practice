@@ -397,6 +397,19 @@ header .header-cases{
     
 }
 
+/*Single Paragram divide into columns
+
+ekta single paragraph k 3ta column a divide korar system.
+
+.case-content article div p{
+    
+    column-count: 3;
+    column-gap: 20px;
+
+    
+}
+*/
+
 
 
 /*Footer Design*/
