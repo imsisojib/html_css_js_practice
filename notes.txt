@@ -1,0 +1,11 @@
+***File Path
+    1. for linking files in the same folder: Example for Picture
+        <a href="gallery.png"></a>
+    2. for linking files in the different folder but in root. Example: c://root/images/gallery.png
+        <a href="images/gallery.png"
+    3. for linking files that in a different location from root: Example:
+         c://files/root and c://files/images/gallery.png
+        <a href="../images/gallery.png"/> 
+
+        or we can just goto root directory only using "/"(slash). / refers to root directory.
+        <a href="/images/gallery.png"/> 
