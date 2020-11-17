@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 300px;
+
+}
+
+input{
+    width: 100%;
+}
+
+textarea{
+   /* resize: none; textarea resize off*/
+   resize: vertical;
+   max-height: 300px;  /*vertically recize hobe. maximum 300px*/
+}
+
+input, textarea { /*styling input and textarea together*/
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+input:focus, textarea:focus { /*focus handle: show box and shadow*/
+    box-shadow: 0 0 4px rgba(255, 0, 0, .5); /*0-x axis,0-y axis, 4px-shadow size, rgba shadow color*/
+    border: 1px solid rgba(255, 0, 0, .5); /*focused border color*/
+}
+
+::placeholder {
+    color: red;
+    opacity: 1;
+}
+
+/*opacity no works same on every broswer. so we need to define each browser for better performance.*/
+:-ms-input-placeholder {  /*Internet Explorer*/
+    color: red;
+    opacity: 1;
+}
+
+::-ms-input-placeholder { /*Microsoft Edge*/
+    color: red;
+    opacity: 1;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Login Form</title>
+</head>
+<body>
+    
+    <form action="#"  method="POST"> <!---Get at a time 3000 character pathate pare, Post unlimited-->
+
+        <input type="text" name="email" placeholder="Write your email">
+        <!--Placeholder hint hisebe kaj kore-->
+        <input type="text" name="email" value="Write your email">
+         <!--value attribute actual data hisebe kaj kore like setText() in android-->
+        Male: <input type="radio" name="gender" value="Male"> <!--Radio type a default check korar jonno "checked" attribute use kora hoy-->
+        Female: <input type="radio" name="gender" value="Female">
+        Other: <input type="radio" name="gender" value="Other"> 
+        <input type="password" name="password" placeholder="Password">
+
+        <textarea name="message" placeholder="Write your message" id="" cols="30" rows="10"></textarea>
+
+        <select name="car" id="">
+            <option value="none">None</option>
+            <option value="car1">Ford</option>
+            <option value="car1">Mercedes</option>
+            <option value="car1">Opel</option>
+        
+        </select>
+
+        <button type="submit" name="submit">Submit</button> 
+        <!--It is better to use button not input as submit button-->
+    </form>
+
+</body>
+</html>
