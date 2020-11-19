@@ -9,3 +9,24 @@
 
         or we can just goto root directory only using "/"(slash). / refers to root directory.
         <a href="/images/gallery.png"/> 
+    
+
+***Meta Tags: (usages)
+    Some meta tags helps website SEO. 
+    1. <meta charset="utf-8"> //which language is used in website
+
+    2. <meta name="description" content="This is a website that teaches HTML and CSS"> //maximum 160 character and description helps to find this website like google and other Search Engine
+
+    3. <meta name="viewport" content="width=device-width, initial-scale=1"> //css file a media query use korle obossoi ai tag use korte hobe na hoy responsive kaj korbe na.
+
+    4. <meta name="keywords" content="coding, tutorials, html, css"> //keywords r google use korena. karon spam keywords diye different website kora hoy ekhon
+
+    5. <meta name="author" content="Sirajul Islam Sojib">
+    //author signature
+
+
+    **list of meta tags:
+    https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags
+
+    **The Periodic Table of SEO Success Factors
+    link: https://searchengineland.com/2017-periodic-table-of-seo-factors-276790
