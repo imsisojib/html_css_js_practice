@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 400px;
+    /*border-spacing: 40px; Spacing between each column and row*/
+}
+
+th, caption{
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000; /*full table'r border hobe, each box'r border hobe*/
+    border-collapse: collapse; /*double border k ekta single border a niye ashe border-collapse*/
+}
+
+th, td {
+   padding: 10px;
+}
+
+/*table'r specific kono column or row k different design korte chaile tr:nth-child() use kora hoy*/
+tr:nth-child(even){
+    background-color: #fff;
+}
+
+tr:nth-child(1){
+    background-color: #ddd;
+}
+/*coloring even and odd row differently*/
