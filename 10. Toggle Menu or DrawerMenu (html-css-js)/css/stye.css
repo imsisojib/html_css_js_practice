@@ -1,0 +1,93 @@
+body{
+    background-color: #f1f1f1;
+}
+
+.nav-main{
+    position: fixed; /*Fixed while scrolling down*/
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+.btn-toggle-nav {
+    width: 60px;
+    height: 100%;
+    background-color: #F98F39;
+    background-image: url("../images/menu.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    cursor: pointer; /*Cursor hover korle pointer icon show korbe*/
+}
+
+.nav-main ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.nav-main ul li{
+    list-style: none;
+    line-height: 60px;
+}
+
+.nav-main ul li a{
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn-toggle-nav:hover {
+    opacity: 0.7;
+}
+
+/*sidebar design*/
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50px; /*menu icon'r width(60px) soman ekta sidebar dekhabe tai 50px and padding left-right 5px*/
+    padding: 0 5px;
+    height: calc(100vh - 60px);
+    background-color: #1b1b1b;
+    z-index: 1000;
+}
+
+.nav-sidebar ul{
+   padding-top: 15px;
+   overflow: hidden;  /*sidebar container'r baire ja jabe ta r dekha jabe na.*/
+    visibility: hidden;
+
+}
+
+.nav-sidebar ul li{
+    line-height: 60px;
+    list-style: none;
+
+}
+
+.nav-sidebar ul li span, .nav-sidebar ul li a{
+    display: block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    white-space: nowrap; /*space na thakleo line break korbe na.*/
+
+}
+
+.nav-sidebar ul li a:hover{
+    background-color: #222;
+}
