@@ -40,3 +40,10 @@
         content layer and presentation layer are loaded while page load and interactive layer changer realtime before and after pages are loaded.
         JavaScript used to interact in websites realtime.
         
+
+    ***How to use JavaScript
+    1. <head> tag'r moddhe use kora jabe.
+    2. <body> tag'r moddhe use kora jabe.
+    3. <body> tag'r seshe use kora jabe and eta better.
+
+    Jodi JavaScript head tag-a use kora hoy but JavaScript page load'r somoy document a kichu write kore sekhetre error ashbe. karon html Top-to-Down compile hoy. tai head tag'r moddhe JavaScript body k identify korte parbe na tai error dibe. tai body tag'r seshe JavaScript use kora better.
