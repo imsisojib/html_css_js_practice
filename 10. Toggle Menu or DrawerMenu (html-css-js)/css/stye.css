@@ -60,6 +60,7 @@ body{
     height: calc(100vh - 60px);
     background-color: #1b1b1b;
     z-index: 1000;
+    transition: all 0.3s ease-in-out;  /*animation while open and close*/
 }
 
 .nav-sidebar ul{
@@ -85,7 +86,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     white-space: nowrap; /*space na thakleo line break korbe na.*/
-
+    opacity: 0;
+    transition: all 0.3s ease-in-out; /*animation while hober*/
 }
 
 .nav-sidebar ul li a:hover{
