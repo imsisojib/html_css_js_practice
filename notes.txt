@@ -30,3 +30,13 @@
 
     **The Periodic Table of SEO Success Factors
     link: https://searchengineland.com/2017-periodic-table-of-seo-factors-276790
+
+
+    ***Website Layer
+        1. Content Layer(HTML)
+        2. Presentation Layer(CSS)
+        3. Interactive Layer(JavaScript)
+
+        content layer and presentation layer are loaded while page load and interactive layer changer realtime before and after pages are loaded.
+        JavaScript used to interact in websites realtime.
+        
