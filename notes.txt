@@ -47,3 +47,11 @@
     3. <body> tag'r seshe use kora jabe and eta better.
 
     Jodi JavaScript head tag-a use kora hoy but JavaScript page load'r somoy document a kichu write kore sekhetre error ashbe. karon html Top-to-Down compile hoy. tai head tag'r moddhe JavaScript body k identify korte parbe na tai error dibe. tai body tag'r seshe JavaScript use kora better.
+
+
+***Website Validation
+    for html: https://validator.w3.org/
+    for css: http://jigsaw.w3.org/css-validator/
+
+    Validate website and find out error that should be solved before upload.
+
